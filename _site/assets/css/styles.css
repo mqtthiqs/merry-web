@@ -1,0 +1,133 @@
+* {
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Karla', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  text-decoration: underline; }
+
+header {
+  z-index: 1000;
+  position: fixed;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  /* For IE8 and earlier */
+  width: 100%;
+  top: 0;
+  height: 10em;
+  background-color: white; }
+  header nav {
+    z-index: -1000;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center; }
+    header nav a#logo {
+      margin-right: auto; }
+      header nav a#logo img {
+        width: 10em; }
+    header nav ul {
+      display: inline-block;
+      list-style: none;
+      margin-right: 1em; }
+    header nav ul#menu li {
+      margin-right: 2em; }
+    header nav li {
+      display: inline-block; }
+      header nav li a {
+        color: black;
+        text-transform: uppercase;
+        text-decoration: none; }
+    header nav li img {
+      width: 17px; }
+
+main {
+  padding-top: 10em;
+  text-align: center; }
+  main section {
+    margin: 0 5em; }
+    main section p {
+      margin-bottom: 2ex; }
+    main section div#home {
+      position: relative; }
+      main section div#home a.menu {
+        position: absolute;
+        text-transform: uppercase;
+        font-size: 250%;
+        background-color: white;
+        padding: 1ex 2ex;
+        border: 3px solid black; }
+      main section div#home a.menu:hover {
+        background-color: black;
+        border: 3px dashed white;
+        color: white;
+        text-decoration: none; }
+      main section div#home a#menu_labo {
+        top: 60%;
+        left: 5%; }
+      main section div#home a#menu_retail {
+        top: 10%;
+        left: 70%; }
+      main section div#home a#menu_rh {
+        top: 90%;
+        left: 60%; }
+      main section div#home img {
+        margin-top: 4em;
+        width: 60%; }
+      main section div#home img.home2 {
+        display: none; }
+    main section div#labo {
+      margin: 3em;
+      padding: 2em;
+      border: 3px solid black; }
+      main section div#labo h1 {
+        background-color: white;
+        transform: translate(0, -2em);
+        display: inline-block;
+        padding: 1ex 2ex;
+        border: 3px solid black;
+        font-size: 250%;
+        font-weight: normal;
+        text-transform: uppercase; }
+    main section div#retail div#title {
+      height: 30em;
+      position: relative; }
+      main section div#retail div#title h1 {
+        z-index: 2;
+        background-color: white;
+        display: inline-block;
+        padding: 1ex 2ex;
+        border: 3px solid black;
+        font-size: 250%;
+        font-weight: normal;
+        text-transform: uppercase; }
+    main section div#retail img.retail {
+      position: absolute; }
+    main section div#retail img#retail1 {
+      z-index: 10;
+      width: 60%;
+      top: 0%;
+      left: 20%; }
+    main section div#retail img#retail2 {
+      z-index: 20;
+      width: 40%;
+      top: 10%;
+      left: 0%; }
+    main section div#retail img#retail3 {
+      z-index: 30;
+      width: 45%;
+      top: 25%;
+      right: 0%; }
+    main section div#retail img#retail4 {
+      z-index: 40;
+      width: 60%;
+      top: 60%;
+      left: 20%; }
