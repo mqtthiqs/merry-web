@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Matthias Puech
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: Merry Company
+baseurl: "/merry-web" # the subpath of your site, e.g. /blog
+url: "https://mqtthiqs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
