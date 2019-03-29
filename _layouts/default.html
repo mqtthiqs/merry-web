@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <script type="javascript" src="/assets/js/util.js"></script>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+    <script type="javascript" src="{{site.baseurl}}/assets/js/util.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
@@ -17,37 +17,37 @@
     </main>
     <header>
       <nav>
-        <a id="logo" href="/">
-          <img src="/assets/img/LOGO MERRY home.jpg" />
+        <a id="logo" href="{{site.baseurl}}/">
+          <img src="{{site.baseurl}}/assets/img/LOGO MERRY home.jpg" />
         </a>
         <ul id="menu">
-          <li {% if page.url == "/about.html" %}class="selected"{% endif %}>
-            <a href="/about.html">A Propos</a></li>
-          <li {% if page.url == "/labo.html" %}class="selected"{% endif %}>
-            <a href="/labo.html">Labo</a></li>
-          <li {% if page.url == "/retail.html" %}class="selected"{% endif %}>
-            <a href="/retail.html">Retail</a></li>
-          <li {% if page.url == "/rh.html" %}class="selected"{% endif %}>
-            <a href="/rh.html">RH</a></li>
-          <li {% if page.url == "/contact.html" %}class="selected"{% endif %}>
+          <li {% if page.url == "{{site.baseurl}}/about.html" %}class="selected"{% endif %}>
+            <a href="{{site.baseurl}}/about.html">A Propos</a></li>
+          <li {% if page.url == "{{site.baseurl}}/labo.html" %}class="selected"{% endif %}>
+            <a href="{{site.baseurl}}/labo.html">Labo</a></li>
+          <li {% if page.url == "{{site.baseurl}}/retail.html" %}class="selected"{% endif %}>
+            <a href="{{site.baseurl}}/retail.html">Retail</a></li>
+          <li {% if page.url == "{{site.baseurl}}/rh.html" %}class="selected"{% endif %}>
+            <a href="{{site.baseurl}}/rh.html">RH</a></li>
+          <li>
             <a href="mailto:contact@merrycompany.paris">Contact</a></li>
         </ul>
         <ul id="social">
           <li>
             <a href="https://www.linkedin.com/company/merrycompany/">
-              <img src="/assets/img/LOGO IN noir.jpg" alt="Facebook" /></a>
+              <img src="{{site.baseurl}}/assets/img/LOGO IN noir.jpg" alt="Facebook" /></a>
           </li>
           <li>
             <a href="">
-              <img src="/assets/img/LOGO FB noir.jpg" alt="Facebook" /></a>
+              <img src="{{site.baseurl}}/assets/img/LOGO FB noir.jpg" alt="Facebook" /></a>
           </li>
           <li>
             <a href="https://www.instagram.com/merrycompanyparis/">
-              <img src="/assets/img/LOGO INSTA noir.jpg" alt="Youtube"></a>
+              <img src="{{site.baseurl}}/assets/img/LOGO INSTA noir.jpg" alt="Youtube"></a>
           </li>
           <li>
             <a href="https://twitter.com/companymerry">
-              <img src="/assets/img/LOGO TWITTER noir.jpg" alt="Twitter"></a>
+              <img src="{{site.baseurl}}/assets/img/LOGO TWITTER noir.jpg" alt="Twitter"></a>
           </li>
         </ul>
       </nav>
