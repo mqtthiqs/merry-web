@@ -15,15 +15,18 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Merry Company
-baseurl: "/merry-web"
-url: "https://mqtthiqs.github.io"
+baseurl: ""
+url: "https://merrycompany.paris"
 
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-ftp
 
 future: true
-
+username: merrycomhn
+server_url: ftp.cluster021.hosting.ovh.net
+remote_dir: /www
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
