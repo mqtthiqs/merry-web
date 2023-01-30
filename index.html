@@ -1,14 +1,23 @@
----
-layout: default
-title: Home
----
-
-<div id="home">
-  <img class="home1" src="{{site.baseurl}}/assets/img/HOME ENCART 1.jpg" />
-  <img class="home2" src="{{site.baseurl}}/assets/img/HOME ENCART 2.jpg" />
-  <a class="menu" id="menu_labo" href="{{site.baseurl}}/labo.html">Labo</a>
-  <a class="menu" id="menu_rh" href="{{site.baseurl}}/rh.html">RH</a>
-  <a class="menu" id="menu_retail" href="{{site.baseurl}}/retail.html">Retail</a>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script type="javascript" src="/assets/js/util.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <title>Merry Company | Home</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div id="home">
+  <img class="home1" src="/assets/img/HOME ENCART 1.jpg" />
+  <img class="home2" src="/assets/img/HOME ENCART 2.jpg" />
+  <a class="menu" id="menu_labo" href="/labo.html">Labo</a>
+  <a class="menu" id="menu_rh" href="/rh.html">RH</a>
+  <a class="menu" id="menu_retail" href="/retail.html">Recrutement</a>
 </div>
 
 <script>
@@ -22,3 +31,50 @@ title: Home
       }, 1000);
   });
 </script>
+
+      </section>
+    </main>
+    <header>
+      <nav>
+        <a id="logo" href="/">
+          <img src="/assets/img/LOGO MERRY home.jpg" />
+        </a>
+        <ul id="menu">
+          <li >
+            <a href="/retail.html">Recrutement</a></li>
+          <li >
+            <a href="/rh.html">RH</a></li>
+          <li >
+            <a href="/labo.html">Labo</a></li>
+          <li >
+            <a href="/about.html">À Propos</a></li>
+          <li>
+            <a href="/contact.html">Contact</a></li>
+        </ul>
+        <ul id="social">
+          <li>
+            <a href="https://www.linkedin.com/company/merrycompany/">
+              <img src="/assets/img/LOGO IN noir.jpg" alt="Facebook" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/merrycompanyparis/">
+              <img src="/assets/img/LOGO INSTA noir.jpg" alt="Youtube"></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/companymerry">
+              <img src="/assets/img/LOGO TWITTER noir.jpg" alt="Twitter"></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-137363063-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
